@@ -1,0 +1,4 @@
+In Python you can: write simple CLI apps
+In Python you can: work with various data structures
+In Python you can: automate most of your office tasks
+In Python you can: find pleasure of writing beautifull code!!!

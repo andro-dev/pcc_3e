@@ -1,0 +1,19 @@
+import os
+
+file = 'my_file.txt'
+
+print(f"Does '{file}' exist? {os.path.exists(file)}")
+print(os.getcwd())
+
+print("Current directory contents:")
+print(os.listdir('.'))
+
+print("Writing to the file...   ")
+with open(file, 'w') as f:
+    f.write("Hello, world!\n")
+    f.write("This is a test file.\n")
+print("File written.")
+
+with open(file, 'a') as f:
+    f.write("Appending a new line.\n")
+
